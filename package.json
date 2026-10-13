@@ -1,0 +1,41 @@
+{
+  "name": "nubi-app",
+  "version": "1.0.0",
+  "description": "nubi app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "gg.nubi.app",
+    "productName": "NUBI Control Center",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "NUBI Control Center"
+    }
+  },
+  "allowScripts": {
+    "electron@33.4.11": true
+  }
+}
