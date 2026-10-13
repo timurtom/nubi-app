@@ -20,7 +20,7 @@ This application encapsulates the web-based configuration tools for NUBI devices
 The easiest way to install NUBI Control Center on Windows is using the official installer executable:
 
 1. Go to the [Releases](https://github.com/timurtom/nubi-app/releases) section of this repository.
-2. Download the latest `NUBI.Control.Center.Setup.1.0.0.exe` file.
+2. Download the latest `NUBI.Control.Center.Setup.1.x.x.exe` file.
 3. Run the installer and follow the setup wizard.
 
 ---
